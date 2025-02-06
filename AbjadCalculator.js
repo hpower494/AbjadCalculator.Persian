@@ -88,7 +88,7 @@ if (this.indexOf('Z') > -1){var Z = this.split("Z").join("7").match(/(7)/gim).ma
 if (this.indexOf('z') > -1){var z = this.split("z").join("7").match(/(7)/gim).map(Number).reduce(getSum)}else{z=0}
 
     
-    return A+a+B+b+C+ch+D+d+E+e+F+f+G+g+H+h+I+i+J+j+K+k+L+l+M+m+N+n+O+o+P+p+Q+q+R+r+S+s+T+t+U+u+V+v+W+w+X+x+Y+y+Z+z+ا+آ+ب+پ+ج+چ+د+ه+و+ز+ژ+ح+ط+ی+ي+ک+گ+ل+م+ن+س+ع+ف+ص+ق+ر+ش+ت+ث+خ+ذ+ض+ظ+غ
+    return A+a+B+b+Ch+ch+D+d+E+e+F+f+G+g+H+h+I+i+J+j+K+k+L+l+M+m+N+n+O+o+P+p+Q+q+R+r+S+s+T+t+U+u+V+v+W+w+X+x+Y+y+Z+z+ا+آ+ب+پ+ج+چ+د+ه+و+ز+ژ+ح+ط+ی+ي+ک+گ+ل+م+ن+س+ع+ف+ص+ق+ر+ش+ت+ث+خ+ذ+ض+ظ+غ
 };
 
 Ask();

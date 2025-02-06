@@ -38,7 +38,7 @@ if (this.indexOf('A') > -1){var A = this.split("A").join("1").match(/(1)/gim).ma
 if (this.indexOf('a') > -1){var a = this.split("a").join("1").match(/(1)/gim).map(Number).reduce(getSum)}else{a=0}
 if (this.indexOf('B') > -1){var B = this.split("B").join("2").match(/(2)/gim).map(Number).reduce(getSum)}else{B=0}
 if (this.indexOf('b') > -1){var b = this.split("b").join("2").match(/(2)/gim).map(Number).reduce(getSum)}else{b=0}
-if (this.indexOf('C') > -1){var C = this.split("C").join("60").match(/(60)/gim).map(Number).reduce(getSum)}else{C=0}
+if (this.indexOf('Ch') > -1){var Ch = this.split("Ch").join("703").match(/(703)/gim).map(Number).reduce(getSum)}else{Ch=0}
 if (this.indexOf('ch') > -1){var ch = this.split("ch").join("703").match(/(703)/gim).map(Number).reduce(getSum)}else{ch=0}
 if (this.indexOf('D') > -1){var D = this.split("D").join("4").match(/(4)/gim).map(Number).reduce(getSum)}else{D=0}
 if (this.indexOf('d') > -1){var d = this.split("d").join("4").match(/(4)/gim).map(Number).reduce(getSum)}else{d=0}

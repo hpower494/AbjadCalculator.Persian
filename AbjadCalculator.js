@@ -39,7 +39,7 @@ if (this.indexOf('a') > -1){var a = this.split("a").join("1").match(/(1)/gim).ma
 if (this.indexOf('B') > -1){var B = this.split("B").join("2").match(/(2)/gim).map(Number).reduce(getSum)}else{B=0}
 if (this.indexOf('b') > -1){var b = this.split("b").join("2").match(/(2)/gim).map(Number).reduce(getSum)}else{b=0}
 if (this.indexOf('C') > -1){var C = this.split("C").join("60").match(/(60)/gim).map(Number).reduce(getSum)}else{C=0}
-if (this.indexOf('c') > -1){var c = this.split("c").join("60").match(/(60)/gim).map(Number).reduce(getSum)}else{c=0}
+if (this.indexOf('ch') > -1){var ch = this.split("ch").join("703").match(/(703)/gim).map(Number).reduce(getSum)}else{ch=0}
 if (this.indexOf('D') > -1){var D = this.split("D").join("4").match(/(4)/gim).map(Number).reduce(getSum)}else{D=0}
 if (this.indexOf('d') > -1){var d = this.split("d").join("4").match(/(4)/gim).map(Number).reduce(getSum)}else{d=0}
 if (this.indexOf('E') > -1){var E = this.split("E").join("5").match(/(5)/gim).map(Number).reduce(getSum)}else{E=0}
@@ -88,7 +88,7 @@ if (this.indexOf('Z') > -1){var Z = this.split("Z").join("7").match(/(7)/gim).ma
 if (this.indexOf('z') > -1){var z = this.split("z").join("7").match(/(7)/gim).map(Number).reduce(getSum)}else{z=0}
 
     
-    return A+a+B+b+C+c+D+d+E+e+F+f+G+g+H+h+I+i+J+j+K+k+L+l+M+m+N+n+O+o+P+p+Q+q+R+r+S+s+T+t+U+u+V+v+W+w+X+x+Y+y+Z+z+ا+آ+ب+پ+ج+چ+د+ه+و+ز+ژ+ح+ط+ی+ي+ک+گ+ل+م+ن+س+ع+ف+ص+ق+ر+ش+ت+ث+خ+ذ+ض+ظ+غ
+    return A+a+B+b+C+ch+D+d+E+e+F+f+G+g+H+h+I+i+J+j+K+k+L+l+M+m+N+n+O+o+P+p+Q+q+R+r+S+s+T+t+U+u+V+v+W+w+X+x+Y+y+Z+z+ا+آ+ب+پ+ج+چ+د+ه+و+ز+ژ+ح+ط+ی+ي+ک+گ+ل+م+ن+س+ع+ف+ص+ق+ر+ش+ت+ث+خ+ذ+ض+ظ+غ
 };
 
 Ask();
